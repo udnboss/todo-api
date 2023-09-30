@@ -29,8 +29,8 @@ fetch('tasks', {
 
 ## Endpoints
 
-- GET /tasks: list all tasks
-- POST /tasks: create a task
-- GET /tasks/status/{status}: get all tasks by status
-- PATCH /tasks/mark_as_finished/{id}: mark a task as finished
-- DELETE /tasks/{id}: delete a task by id
+- GET `/tasks`: list all tasks
+- POST `/tasks`: create a task
+- GET `/tasks/status/{status}`: get all tasks by status
+- PATCH `/tasks/mark_as_finished/{id}`: mark a task as finished
+- DELETE `/tasks/{id}`: delete a task by id 
